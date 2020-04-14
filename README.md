@@ -1,7 +1,7 @@
 # WebRTC-Nodejs-SingnalingServer
 
-This project uses [WEBRTC](https://webrtc.org/) Technology to make RealTime Video and Audio Call from Browser.
-It is one of the most famouse technologies that is being used to make Real time communication. WebRTC is used in various apps like WhatsApp, Facebook Messenger, appear.in and platforms such as TokBox. WebRTC has also been integrated with WebKitGTK+ and Qt native apps.
+This project uses [WEBRTC](https://webrtc.org/) Technology to make RealTime Video and Audio Calling from Browser.
+It is one of the most famous technologies that is being used to make Real time communication. WebRTC is used in various apps like WhatsApp, Facebook Messenger, appear.in and platforms such as TokBox. WebRTC has also been integrated with WebKitGTK+ and Qt native apps.
 
 WebRTC does not require a conventional server to make real time communication. It uses RTCPeerConnection to communicate streaming data between browsers (aka peers), but also needs a mechanism to coordinate communication and to send control messages, a process known as signaling. Signaling methods and protocols are not specified by WebRTC: signaling is not part of the RTCPeerConnection API.
 
@@ -17,7 +17,7 @@ Make sure you have installed
 
 ### Run the Code
 
-To run firstly clone the repo to your desired folder and cd to that folder and run the following command.
+To run at first clone the repo to your desired folder and cd to that folder and run the following command.
 
 ```
 // To install dependencies
@@ -27,7 +27,7 @@ npm install
 // To run server
 nodemon server.js
 
-//Server up and running on port 5000
+//Server up and running on port 3000
 
 
 // To run client go client folder and open 'index.html' file in a browser
